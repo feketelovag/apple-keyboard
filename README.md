@@ -6,7 +6,6 @@ This repository contains configuration files for the wired Apple keyboard with H
 Usage on Linux:
 ---------------
 - Copy the linux/.Xmodmap file to ~/.Xmodmap.
-    cp linux/.Xmodmap ~/.Xmodmap
 - Logout or restart.
 
 
