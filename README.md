@@ -8,6 +8,9 @@ Usage on Linux:
 - Copy the linux/.Xmodmap file to ~/.Xmodmap.
 - Logout or restart.
 
+If you want F1, F2, etc... keys to behave as F keys, configure the "fn" button (works on Ubuntu 12.10):
+    $ echo 2 | sudo tee /sys/module/hid_apple/parameters/fnmode
+
 
 Usage on Windows:
 -----------------
